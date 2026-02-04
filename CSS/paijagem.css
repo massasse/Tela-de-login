@@ -1,0 +1,21 @@
+html,body{
+    width: 100vw;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#item1{
+width:100vw;
+height:40vh;
+background-color: lightgray;
+}
+
+#item2{
+width:100vw;
+height:60vh;
+background-color: gray;
+}
