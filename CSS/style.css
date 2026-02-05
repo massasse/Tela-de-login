@@ -1,4 +1,22 @@
 
-@media screen and (min-width="768px") {
-    
+@media screen and (min-width:1025px) {
+    html,body{
+
+    background-color: black;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:1024px){
+     html,body{
+
+    background-color: rgb(68, 204, 44);
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    html,body{
+
+    background-color: rgb(255, 0, 0);
+}
 }

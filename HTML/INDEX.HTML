@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="PT-PT">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="stylesheet" href="../CSS/Retrato.css" media="screen and (orientation:portrait)">
-    <link rel="stylesheet" href="../CSS/paijagem.css" media="screen and (orientation:landscape)">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../CSS/Tablet.css" media=" and (min-width:481px) and (max-width:1024px)">
+    <link rel="stylesheet" href="../CSS/Desketop.css" media="screen and (min-width:1025px)">
+    <link rel="stylesheet" href="../CSS/Mobile.css" media="screen and (max-width:480px)">
 </head>
+
 <body>
-    <main id="container">
-<article id="item1">
-<h1>Seja Bem Vindo Devolta...</h1>
-</article>
-<article id="item2">
-    <form method="post">
-<label for="campo-usuario">Usuario:</label>
-<input type="text" id="campo-usuario" name="usuario">
-<label for="campo-senha">Senha:</label>
-<input type="password" id="campo-senha" name="senha">
-<input type="submit" id="button">
-</form>
-</article>
-    </main>
+    <h1>Login</h1>
+
+    <div id="container">
+        <form>
+            <label for="campo-nome" class="item">Nome</label>
+            <input type="text" id="campo-nome" class="item" placeholder="Digite seu Nome" required>
+            <label for="campo-senha">Senha</label>
+            <input type="password" id="campo-senha" class="item" placeholder="Digite sua Senha" required>
+            <Button class="item">Entrar</Button>
+
+        </form>
+    </div>
 </body>
+
 </html>
