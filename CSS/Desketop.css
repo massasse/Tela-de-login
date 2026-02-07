@@ -1,0 +1,38 @@
+body{
+    background-image: url(../IMG/Backindex1.jpg);
+    background-size: cover;
+
+}
+
+main{
+    display: flex ;
+flex-flow: row;
+height: 100vh;
+
+}
+.esq{
+    width: 50vw;
+}
+dir{
+    width: 50vw;
+}
+
+#part1 h1,#part2 a{
+    
+    text-align: center;
+}
+
+#part2 a{
+display: block;
+background-color: red;color:#fff;
+margin: 10px auto;
+width: 70%;
+padding: 10px;
+border-radius: 70px;
+text-decoration: none;
+font-weight: bold;
+
+}
+#part1{
+    padding-top:150px}
+#part2{padding-top: 100px;}

@@ -1,0 +1,29 @@
+main{
+  max-height: 100VH;
+text-align: center;
+margin: 0px;
+}
+.t1{
+  font-weight: 100;
+  font-size: 1.2em;
+
+}
+.loja{
+    font-size: 2.4;
+}
+
+a{
+  width: 70vw;
+  height: 30px;
+  padding: 10px;
+  background-color: red;
+  color: #fff;
+  border-radius: 30px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+#part1{padding-top: 150px;}
+#part2{padding-top: 40px;}

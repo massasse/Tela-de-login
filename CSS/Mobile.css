@@ -1,7 +1,27 @@
-#container{
-    background-color: gray;
+main{
+  max-height: 100VH;
+text-align: center;
+margin: 0px;
 }
-.intem{
-  display: block;
+.t1{
+  font-weight: 100;
+  font-size: 1em;
 
 }
+
+
+a{
+  width: 70vw;
+  height: 30px;
+  padding: 10px;
+  background-color: red;
+  color: #fff;
+  border-radius: 30px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+#part1{padding-top: 190px;}
+#part2{padding-top: 50px;}
